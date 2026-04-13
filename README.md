@@ -20,3 +20,21 @@ It allows users to input complaint priority levels and sorts them using either *
 - `BubbleSort.java` → Implements bubble sort algorithm
 - `SortStrategy.java` → Interface for sorting strategies
 - `InternQueueSorter.java` → Main program with CLI options
+
+## How to Run (Windows CMD)
+1. Open Command Prompt and navigate to the folder containing your files:
+   ```cmd
+   cd C:\Users\YourName\InternQueueSorter\src
+2. Compile all Java files:
+    ```cmd
+   javac *.java
+3. Run the program with input
+    - Default (Selection Sort):
+      ```cmd
+       java InternQueueSorter 10,8,2,6,4
+    - Selection Sort:
+      ```cmd
+       java InternQueueSorter --algorithm=selection 10,8,2,6,4
+    - Bubble Sort:
+      ```cmd
+      java InternQueueSorter --algorithm=bubble 10,8,2,6,4
